@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://i.pinimg.com/1200x/f8/b1/e5/f8b1e513de7bc3a3d56314d81840af13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+
+}
+
+.container {
+    display: flex;         /* Acomoda los box en fila */
+    justify-content: left; /* Centra horizontalmente */
+    gap: 20px;             /* Espacio entre cuadros */
+    padding: 40px;
+    flex-wrap: wrap;       /* Permite que bajen si no entran en una fila */
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    width: 240px;
+    height: 300px;
+    border-radius: 7px;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+ 
+}
+
+h1 {
+
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 30px; 
+    color: #edcd00; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+
+
+.box img {
+    width: 100%;
+    height: 220px;
+
+}
+
+.box .ratagamer {
+    width: 100%;
+    height: 190px;
+
+}
+
+.text1 {
+    top: 200px;
+    left: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.text2 {
+    top: 200px;
+    left: 10px;
+    width: 90%;
+    position: absolute;
+}
+
+.text3 {
+    top: 200px;
+    left: 10px;
+    width: 90%;
+    position: absolute;
+}
